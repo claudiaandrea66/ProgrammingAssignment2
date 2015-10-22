@@ -32,3 +32,8 @@ cacheSolve <- function(x, ...) {
   x$setinverse(m)
   m
 }
+
+## Example:
+## > M<-2*diag(6)
+## > M_esp<-makeCacheMatrix(M)
+## > cacheSolve((M_esp))
